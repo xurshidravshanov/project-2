@@ -1,0 +1,722 @@
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  height: 56px;
+}
+nav {
+  z-index: 2;
+  background-color: #fff;
+}
+.container {
+  width: 1169px;
+  margin: 0 auto;
+  padding: 0;
+}
+.relative {
+  position: relative;
+}
+.header_content {
+  display: flex;
+  gap: 512px;
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+}
+.content_img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.content_page {
+  display: flex;
+  gap: 39px;
+}
+.content_ul {
+  display: flex;
+  gap: 51px;
+  list-style: none;
+  margin-top: 19px;
+  margin-bottom: 23px;
+}
+.content_link {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.content_link:hover {
+  color: #aca2a2;
+}
+.content_form {
+  display: flex;
+  gap: 23.3px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.main_form {
+  padding-bottom: 40px;
+  background-color: white;
+  width: 496px;
+  margin: 0 auto;
+}
+.form_page button {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #ffff;
+  padding: 4px 10px 8px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.content_form-1 button {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #ffff;
+  padding: 4px 10px 8px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.content_form-2 button {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #ffff;
+  padding: 4px 27px 8px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.main_content {
+  background: #f4f8fa;
+  text-align: center;
+}
+.main_content-img {
+  margin-top: 64px;
+}
+.footer_On {
+  background: #f4f8fa;
+}
+.main_On {
+  background-color: white;
+  width: 496px;
+  margin: 0 auto;
+}
+.main_content-h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 24px;
+}
+.main_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 16px;
+}
+.main_page-h3 {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444150;
+}
+.main_page-btn {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01bab3;
+  border: none;
+  background-color: #ffff;
+  border-bottom: 3px solid #01bab3;
+  transition: 0.3s;
+}
+.main_page-btn:hover {
+  color: #215752;
+  border-bottom: 3px solid #215752;
+}
+.form_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.form_main-text {
+  flex-direction: column;
+  justify-content: center;
+}
+.form_main-text-label1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 120px;
+  margin-bottom: 8px;
+}
+.form_main-text-input1 input {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  background: #ffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px 85px 14px 16px;
+  margin-bottom: 24px;
+  width: 200px;
+  height: 48px;
+  transition: 0.3s;
+}
+.form_main-text-input1 input:hover {
+  background: #fbfbfb;
+}
+.Birth_date {
+  text-align: center;
+}
+.Birth_date label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 340px;
+}
+.Birth_date-1 input {
+  width: 100%;
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px 298px 14px 16px;
+  margin-top: 8px;
+  width: 416px;
+  height: 48px;
+  background-image: url("./image/Vector.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 5px;
+  padding-left: 30px;
+  margin-bottom: 24px;
+}
+.gender_1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 360px;
+  margin-bottom: 80px;
+}
+.female-male {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.female {
+  width: 200px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #01bab3;
+  border-radius: 4px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+.female input {
+  border: 2px solid #01bab3;
+  padding: 14px 16px;
+  background: #01bab3;
+  color: #01bab3;
+}
+.female label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-left: 10px;
+}
+.male {
+  width: 200px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #c79696;
+  border-radius: 4px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+.male input {
+  border: 2px solid #01bab3;
+  padding: 14px 16px;
+  background: #01bab3;
+  color: #01bab3;
+}
+.male label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-left: 10px;
+}
+.Skype label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 376px;
+  margin-top: 24px;
+}
+.Skype input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  padding: 10px 286px 14px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 416px;
+  height: 48px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.Promo label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 370px;
+  margin-top: 24px;
+}
+.Promo input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  padding: 10px 319px 14px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 416px;
+  height: 48px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.Submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  /* margin-left: 375px; */
+  width: 416px;
+  height: 48px;
+  background: #01bab3;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+.submit_btn-1 {
+  border: none;
+}
+.submit_btn-1 a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  background: #01bab3;
+}
+.submit_btn-1 a:hover {
+  color: #01bab3;
+}
+.submit_btn-2 a {
+  color: #ffffff;
+  background: #01bab3;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  border: none;
+  transition: 0.3s;
+}
+.submit_btn-2 a:hover {
+  color: #01bab3;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_page {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 64px;
+  margin-bottom: 25px;
+  width: 322px;
+  height: 22px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer_page:hover {
+  color: rgba(170, 62, 62, 0.65);
+}
+.Email_1-label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 370px;
+  margin-bottom: 8px;
+}
+.Email_1-input input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  padding: 10px 304px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 415px;
+  height: 46px;
+  margin-bottom: 23px;
+}
+.Phone_1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 366px;
+  margin-bottom: 8px;
+}
+.Phone_1-input input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  padding: 10px 293px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 415px;
+  height: 46px;
+  margin-bottom: 23px;
+}
+.flag_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.flag_page1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 133px;
+  margin-bottom: 8px;
+}
+.flag_page1-1 input {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px 20px 14px 16px;
+  height: 48px;
+  width: 197px;
+  margin-bottom: 23px;
+}
+.flag_page2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 163px;
+  margin-bottom: 8px;
+}
+.flag_page2-2 input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  height: 48px;
+  width: 197px;
+  margin-bottom: 23px;
+  padding: 10px 72px 14px 16px;
+}
+.Password1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 340px;
+  margin-bottom: 8px;
+}
+.Password1-input input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  padding: 10px 293px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 415px;
+  height: 46px;
+  margin-bottom: 23px;
+}
+.Confirm-password-1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 280px;
+  margin-bottom: 8px;
+}
+.Confirm-password-2 input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  opacity: 0.5;
+  padding: 10px 293px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 415px;
+  height: 46px;
+  margin-bottom: 87px;
+}
+.main_submit button {
+  width: 415px;
+  height: 51.2px;
+  background: #01bab3;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main_submit button a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-decoration: none;
+  transition: 0.3s;
+  border: none;
+}
+.main_submit button a:hover {
+  color: #3fadaa;
+}
+.footer_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 73px;
+}
+.footer_text-h4 h4 {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #778699;
+  width: 300px;
+  height: 47px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer_text-h4:hover {
+  color: #157a77;
+}
+.box {
+  background: #f4f8fa;
+  padding-top: 56px;
+  padding-bottom: 61px;
+}
+.format {
+  text-align: center;
+  width: 496px;
+  margin: 0 auto;
+}
+.format_label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 370px;
+  margin-bottom: 8px;
+}
+.format_input input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  padding: 10px 304px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 415px;
+  height: 46px;
+  margin-bottom: 31px;
+}
+.password_label-2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  margin-right: 343px;
+  margin-bottom: 8px;
+}
+.password_input-2 input {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  padding: 15px 312px 11px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 415px;
+  height: 46px;
+  margin-bottom: 88px;
+}
+.Footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f8fa;
+}
+.Footer_container h4 {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  width: 315px;
+  height: 22px;
+  margin-top: 36px;
+  margin-bottom: 261px;
+  transition: 0.3s;
+}
+.Footer_container h4:hover {
+  color: rgba(124, 47, 47, 0.65);
+}
+.main-about {
+  background-color: white;
+}
+.main_In {
+  background-color: white;
+}
